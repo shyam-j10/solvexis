@@ -1,0 +1,63 @@
+.vidio_container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.vedio_background_gradient {
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  background: hwb(247 2% 91% / 0.468);
+  opacity: 1 !important;
+}
+.vedio {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+@media only screen and (max-width: 900px) {
+  .vidio_container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  .vedio_background_gradient {
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 90%;
+    z-index: 1;
+    background: hwb(247 2% 91% / 0.468);
+    opacity: 1 !important;
+  }
+  .vedio {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .vidio_container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  .vedio {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 38vw;
+    z-index: 0;
+  }
+}

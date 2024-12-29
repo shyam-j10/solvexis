@@ -1,0 +1,139 @@
+.contact-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3vw;
+  background-color: #1d1d1d81;
+  padding: 3vw;
+  width: 60%;
+  border-radius: 1vw;
+  margin: 0 auto;
+}
+
+.contact_header {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: var(--font-size-30px);
+  font-weight: 500;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 15px;
+  margin: 13px;
+}
+
+.flex-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-item {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.flex-item:last-child {
+  margin-right: 0;
+}
+
+label {
+  position: absolute;
+  top: 20%;
+  left: 10px;
+  font-size: 12px;
+  transition: all 0.3s ease;
+  pointer-events: none;
+  color: #aaa;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #3e3d3de4;
+  border-radius: 4px;
+  background-color: transparent;
+  color: white;
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  /* border-top-left-radius: 0; */
+}
+option {
+  background-color: #131313;
+}
+textarea {
+  height: 5vw;
+}
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #ffffffa4;
+}
+
+input:focus + label,
+textarea:focus + label,
+select:focus + label,
+input.filled + label,
+textarea.filled + label,
+select.filled + label {
+  top: -20px;
+  left: 0;
+  font-size: 12px;
+  color: #ffffffa4;
+}
+.filled {
+  top: -20px;
+  left: 0;
+  font-size: 12px;
+  color: #ffffffa4;
+}
+
+input.error,
+textarea.error,
+select.error {
+  border-color: rgb(236, 92, 92);
+}
+
+.helper-text {
+  color: rgb(236, 92, 92);
+  font-size: 12px;
+}
+
+.submit-button {
+  width: 200px;
+
+  background: linear-gradient(
+    79deg,
+    #e151ff 0%,
+    #9c83ff 31.28%,
+    #e151ff 77.97%
+  ) !important;
+  border: none !important;
+  border-radius: 5px !important;
+  box-shadow: 0 3px 9px hsla(0, 0%, 8%, 0.25) !important;
+  color: #fff !important;
+  padding: 15px 23px !important;
+  text-align: center !important;
+  cursor: pointer;
+  margin: 0 auto;
+  margin-top: 1vw;
+}
+option {
+  padding: 1.5vw;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}

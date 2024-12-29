@@ -1,0 +1,311 @@
+.services_container{
+    width: 100%;
+    height: 100%;
+}
+.services_header_parent_container{
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 3vw;
+}
+.services_header_content_container{
+    width: 40%;
+
+}
+.services_img{
+    width: 45%;
+}
+.services_enterprise{
+    color: #fff;
+    padding: 8px 20px 7px;
+    display: inline-block;
+    background: #5f5753;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-family: allumi-2-std, Verdana, sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    margin-bottom: 2vw;
+
+}
+.services_header_main_content{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
+
+}
+.services_header_main{
+    font-family: "klinic-slab", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    text-rendering: optimizeLegibility;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    line-height: 1.4;font-size: 2.775em !important;
+}
+.overline {
+    background-color: #9f177a;
+    display: block;
+    width: 35px;
+    padding: 3px;
+    margin-bottom: 4px;
+}
+.services_header_description{
+    font-family: inherit;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+    text-rendering: optimizeLegibility;
+}
+.services_contact_btn{
+    background-color: #ae0a46;
+    box-shadow: none;
+    border-color: transparent;
+    letter-spacing: .1em;
+    font-weight: 400;
+    outline: 0;
+    width: 15vw;
+    color: white;
+    padding-top: 21px;
+    padding-bottom: 20px;
+    -webkit-appearance: none;
+}
+.services_header_img{
+    height: 30vw;
+}
+
+.services_work_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 2vw 3vw;
+    margin: 0 auto;
+    margin-top: 3vw;
+}
+.services_work_description_container{
+    width: 40%;
+    gap: 1vw;
+    display: flex;
+    flex-direction: column;
+
+}
+.services_work_header{
+    color: white;
+    font-weight: 400;
+    font-size: 40px;
+
+}
+.services_work_description{
+    font-size: 18px;
+    line-height: 24px;
+    font-family: inherit;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 24px;
+    text-rendering: optimizeLegibility;
+}
+.services_work_logos{
+    display: flex;
+    flex-direction: column;
+    grid-area: 1.5vw;
+    width: 40%;
+
+}
+.overlineThin {
+    background-color: #582873;
+    display: block;
+    width: 25px;
+    padding: 1px;
+    margin-bottom: 4px;
+}
+.services_work_logo_header{
+    font-weight: 400;
+    line-height: 1.25em;
+    color: rgb(233, 231, 231);
+    font-size: 20px;
+    margin-bottom:2vw;
+}
+.services_work_logo_container{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    margin-bottom: 2vw;
+
+}
+.services_work_logo_container img{
+    height: 4vw;
+    width: 4vw;
+}
+.services_work_description{
+    line-height: 24px;
+    font-size: 16px;
+}
+
+/* ai start==== */
+.services_ai{
+    margin-top: 3vw;
+    width: 100%;
+    margin-bottom: 4vw;
+
+
+}
+.ai_header{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    margin-top: 3vw;
+    margin-bottom: 4vw;
+
+}
+.ai_products_list_container{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.ai_products_container{
+    padding: 2.5vw;
+    width: 22vw;
+
+    border: 0.2vw solid transparent; /* Defines the border width and makes it transparent */
+    border-image: linear-gradient(90deg, #007f7b 1%, #c5de8d) 1; 
+    border-radius: 12px;
+    height: 27vw;
+    cursor: pointer;
+
+    margin: 2vw ;
+}
+.ai_product_header{
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    margin-top: 0;
+    
+}
+.ai_product_description{
+    font-size: 16px;
+    color: rgb(233, 232, 232);
+    margin-bottom: 2rem;
+    margin-block-end: 1em;
+    
+    line-height: 1.6;
+}
+.ai_product_link{
+    margin-top: 3vw;
+    font-size: 18px;
+    color: #008ad4;
+}
+
+.services_process{
+    width: 100%;
+
+}
+.services_process_header{
+    margin-bottom: 3vw;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 3vw;
+    color: white;
+}
+.process_content_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding: 3vw;
+    margin: 0 auto;
+}
+.process_container_description{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+}
+.process_container_description_header{
+    margin-bottom: 1vw;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.process_container_description_description{
+    font-size: 16px;
+    line-height: 1.23;
+    width: 90%;
+    color: rgb(232, 232, 232);
+}
+.ourprocess_img{
+    height: 30vw;
+    width: 30vw;
+}
+
+.dataCloud_product{
+    padding: 3vw;
+    border: 0.1vw solid gray;
+    border-radius: 0.3vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5vw;
+    width: 35%;
+    cursor: pointer;
+}
+.dataCloud_product_header{
+    font-weight: 400;
+    font-size: 18px;
+
+}
+.dataCloud_product_desc{
+    line-height: 24px;
+    font-size: 16px;
+    color: rgb(224, 224, 224);
+}
+.dataCloud_benifits{
+    color: #ae0a46 !important;
+    line-height: inherit;
+}
+.dataCloud_product:hover .right-arrow{padding-left: 25px;
+    transition: .3s ease-in;}
+
+.dataCloud_capabilities{
+    margin: 5vw 0vw;
+    width: 100%;
+}
+.dataCloud_capabilities_header{
+    text-align: center;
+    margin-bottom: 4vw;
+    font-size: 25px;
+    color: white;
+}
+.dataCloud_platforms_container{
+    width: 85%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+.dataCloud_platform{
+    width: 16vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1vw;
+    margin: 2vw;
+}
+.dataCloud_platform_img{
+    height: 4vw;
+    width: 4vw;
+}
+.dataCloud_platform_desc{
+    line-height: 24px;
+    font-size: 16px;
+    text-align: center;
+    color: rgb(210, 210, 210);
+}

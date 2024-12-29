@@ -1,0 +1,962 @@
+/* .spline-bg {
+  z-index: auto;
+  width: 100%;
+  height: 100lvh;
+  position: fixed;
+  top: 0;
+  left: 0;
+} */
+/* .fade__from-top {
+  background-image: linear-gradient(0deg, #06050c, transparent);
+  flex-grow: 1;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+} */
+/* .spline-bg__fade {
+  background-image: radial-gradient(
+    circle farthest-side at 50% 50%,
+    transparent 55%,
+    #080618
+  );
+  opacity: 0.75;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+} */
+.solvexis_loading_screen {
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: #080618;
+  /* background-color: white; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.solvexis_top_mild {
+  height: 5vw;
+  width: 100%;
+  background-color: rgba(19, 19, 19, 0.4);
+  backdrop-filter: blur(15px);
+}
+.solvexis_section_2 {
+  background-size: cover;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 3vw;
+  background-repeat: no-repeat;
+  background-color: #080618;
+  /* position: relative; */
+  /* z-index: 2; */
+  /* margin-top: 53vw; */
+}
+/* .solvexis_main_content_container {
+  background-size: cover;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #080618;
+  position: relative;
+  z-index: 2;
+  margin-top: 70vw;
+  transition: transform 1s ease-out;
+} */
+
+.home_container {
+  width: 100%;
+}
+
+li {
+  margin-bottom: 5px;
+}
+.home_main_content_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 38vw;
+}
+
+@keyframes slide {
+  0% {
+    transform: translate(0);
+  }
+  100% {
+    transform: translate(-100%);
+  }
+}
+.partners_Wrap {
+  width: 100%;
+  margin: 1vw 0;
+}
+.partners_outer_div {
+  margin: 1vw 0;
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.partners_outer_Container_Left {
+  display: inline-block;
+  /* margin-top: 5vw; */
+  animation: 70s slide infinite linear;
+}
+.partners_img {
+  height: 6vw;
+  width: 6vw;
+  margin: 0 5vw;
+  display: inline-block;
+}
+.home_wraper_text {
+  margin-top: 1vw;
+  font-size: var(--font-size-20px);
+  color: white;
+  text-align: center;
+  margin-bottom: 2vw;
+}
+.home_solutions_header_text {
+  width: 100%;
+  margin: 2vw 0;
+  display: flex;
+  justify-content: center;
+
+  text-align: center;
+}
+.home_solutions_header_text p {
+  margin-top: 5vw;
+  width: 65%;
+  font-size: var(--font-size-30px);
+}
+.home_solutions_description {
+  text-align: center;
+  width: 50%;
+  padding: 4vw 0vw;
+  font-size: var(--font-size-18px);
+  font-weight: 500;
+  color: rgb(203, 203, 203);
+  @keyframes identifier {
+  }
+  margin: 0 auto;
+}
+.solvexis_works_container {
+  margin: 0vw 3.5vw;
+  padding: 3vw 0vw;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2vw;
+  align-items: center;
+}
+.solvexis_works_sub_container {
+  border-radius: 1vw;
+  border-bottom: 0.1vw solid white;
+  padding: 1vw;
+  height: 8vw;
+  width: 27vw;
+  margin: 0 auto;
+  transition: 0.5s ease-in-out;
+}
+.work_name {
+  color: white;
+  font-size: var(--font-size-20px);
+  font-weight: 500;
+  margin-bottom: 0.8vw;
+}
+.work_description {
+  color: rgb(221, 221, 221);
+  font-size: var(--font-size-16px);
+  font-weight: 400;
+  margin-bottom: 0.8vw;
+}
+.solvexis_works_sub_container:hover {
+  background-color: rgb(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  padding: 1.1vw;
+  cursor: pointer;
+}
+.tech_work_with_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tech_work_header {
+  font-size: var(--font-size-30px);
+  color: white;
+  margin-top: 3vw;
+  font-weight: 500;
+  margin-bottom: 3vw;
+  text-align: center;
+}
+.tech_work_logos_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0vw 1vw;
+
+  justify-content: center;
+  width: 100%;
+  margin: 2vw 0vw;
+  margin-bottom: 4vw;
+}
+
+.tech_work_logos_sub_container {
+  height: 8.18vw;
+  width: 15%;
+
+  border-radius: 0.5vw;
+  border: 0.1vw solid rgba(255, 255, 255, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tech_work_logos_sub_container img {
+  width: auto;
+  padding: 20px;
+  transform: scale(1);
+  transition: all 0.1s ease-in;
+  margin: auto;
+  max-height: 90%;
+  max-width: 100%;
+}
+
+.tech_work_logos_sub_container:hover {
+  backdrop-filter: blur(15px);
+  cursor: pointer;
+}
+
+.solvexis_vidio_container {
+  width: 100%;
+  padding: 2vw;
+}
+.solvexis_vidio_container video {
+  object-fit: cover;
+  width: 100%;
+  height: 46vw;
+}
+.case_studies_container {
+  width: 100%;
+  margin: 3vw 0vw;
+  gap: 2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.case_studies_header_txt {
+  text-align: center;
+  font-size: var(--font-size-30px);
+  font-weight: 500;
+  margin-top: 4vw;
+}
+.case_studies_description {
+  color: rgb(214, 214, 214);
+  font-size: var(--font-size-20px);
+  font-weight: 400;
+  text-align: center;
+  width: 43%;
+}
+.case_studies_roles_container {
+  width: 100%;
+  padding: 3vw 4vw;
+}
+.case_studies_roles_sub_container {
+  width: 100%;
+  margin-bottom: 5vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.web {
+  display: block;
+}
+.mobile {
+  display: none;
+}
+.case_studies_img {
+  width: 40%;
+  height: 30vw;
+  object-fit: cover;
+}
+.case_studies_details {
+  display: flex;
+  gap: 2vw 0vw;
+  width: 47%;
+  flex-direction: column;
+}
+.case_studies_details_header {
+  font-size: var(--font-size-25px);
+  font-family: 600;
+  color: white;
+}
+.case_studies_details_sub_container_txt {
+  font-size: var(--font-size-20px);
+  color: white;
+  margin-bottom: 0.3vw;
+  font-weight: 500;
+}
+.case_studies_details_sub_container_description {
+  font-size: var(--font-size-16px);
+  color: rgb(228, 228, 228);
+  font-weight: 400;
+  width: 70%;
+}
+footer {
+  /* background-color: #ecf5ff; */
+  background-color: white;
+  color: black;
+}
+.case_studies_footer {
+  width: 100%;
+  padding: 2vw;
+
+  /* text-align: center; */
+}
+.section_3 {
+  background-color: #080618;
+  width: 100%;
+  backdrop-filter: blur(15px);
+}
+.case_studies_footer_header {
+  font-size: var(--font-size-30px);
+  color: white;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 3vw;
+}
+.case_studies_footer_conclution {
+  width: 100%;
+  background-color: rgb(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  border-radius: 1vw;
+  border: 0.1vw solid gray;
+  display: flex;
+  margin-top: 5vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4vw;
+}
+.case_studies_footer_txt {
+  text-align: center;
+  margin-bottom: 2vw;
+  width: 65%;
+  letter-spacing: 0.1vw;
+  font-size: var(--font-size-16px);
+}
+.case_studies_footer_brent {
+  text-align: center;
+  letter-spacing: 0.1vw;
+  font-size: var(--font-size-16px);
+}
+.case_studies_footer_ceo {
+  text-align: center;
+  letter-spacing: 0.1vw;
+  font-size: var(--font-size-16px);
+}
+/* ======== footer ============= */
+.footer_container {
+  width: 100%;
+  margin-top: 5vw;
+  padding: 2vw 3vw;
+  padding-bottom: 1vw;
+  /* background-color: white; */
+}
+.footer_solvexis_info_container {
+  /* display: flex;
+  width: 94%;
+  /* : 0w 3vw; */
+  /* margin: 0 auto;
+  padding-top: 1vw;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center; */
+  /* border-bottom: 0.1vw solid gray; */
+  display: flex;
+  width: 100%;
+  gap: 9vw;
+  margin-top: 3vw;
+  padding-bottom: 6vw;
+  border-bottom: 0.1vw solid black;
+}
+.footer_company_detail {
+  display: flex;
+  gap: 0vw 1.5vw;
+  flex-direction: column;
+}
+.footer_company_name {
+  /* font-size: var(--font-size-30px); */
+  /* margin-bottom: 2vw; */
+  font-size: var(--font-size-25px);
+  font-weight: 500;
+  margin-bottom: 2vw;
+  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
+}
+.footer_company_description {
+  font-size: var(--font-size-16px);
+  width: 23vw;
+
+  line-height: 2vw;
+}
+.footer_nav_links {
+  display: flex;
+  gap: 0.5vw;
+  flex-direction: column;
+}
+.footer_nav_link {
+  color: black;
+  font-weight: 500;
+  font-size: var(--font-size-18px);
+  text-decoration: none;
+}
+.footer_contact_info_sub_container {
+  margin-bottom: 2vw;
+}
+.footer_contact_info_sub_container_header {
+  font-size: 14px;
+  font-weight: 500;
+  color: black;
+}
+.footer_contact_links {
+  font-size: 12px;
+  color: black;
+  text-decoration: none;
+}
+.footer_logo_container {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+.footer_logo_img {
+  margin-bottom: 1vw;
+  object-fit: cover;
+
+  background: 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s,
+    transform var(1, 0.4s);
+}
+.footer_social_media {
+  padding-bottom: 2vw;
+  display: flex;
+  margin: 0 auto;
+
+  padding-top: 2vw;
+  /* align-items: center; */
+}
+.footer_social_media_icons_container {
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+}
+.footer_social_media_icons_container a {
+  display: flex;
+  align-items: center;
+  gap: 0.5vw;
+}
+.footer_solvexis_histry {
+  display: flex;
+  gap: 2vw;
+  margin-left: 37%;
+  align-items: center;
+}
+
+.footer_icons {
+  object-fit: cover;
+  height: 1.7vw;
+  width: 1.7vw;
+}
+.stack_logo {
+  height: 4vw;
+  width: 4vw;
+}
+.home_partners_wraper_img img {
+  z-index: 1;
+}
+@media only screen and (max-width: 900px) {
+  .home_main_content_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    height: 300px;
+  }
+  .home_wraper_parent_container {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vw;
+    margin-bottom: 2vw;
+  }
+  .home_partners_wraper_img {
+    margin-left: 10vw;
+  }
+  .home_solutions_header_text p {
+    margin-top: 5vw;
+    width: 90%;
+    font-weight: 500;
+    font-size: 22px;
+  }
+  .partners_Wrap {
+    width: 100%;
+    margin: 2vw 0;
+    margin-bottom: 2vw;
+  }
+  .partners_img {
+    height: 10vw;
+    width: 10vw;
+    margin: 0 8vw;
+    display: inline-block;
+  }
+  .home_wraper_text {
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .home_solutions_description {
+    text-align: center;
+    width: 90%;
+    padding: 5vw 0vw;
+    font-size: var(--font-size-18px);
+    font-weight: 500;
+    color: rgb(203, 203, 203);
+    margin: 0 auto;
+  }
+  .solvexis_works_container {
+    margin: 3vw 3.5vw;
+    display: flex;
+    flex-direction: column;
+    gap: 6vw;
+    align-items: center;
+  }
+  .work_name {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 2vw;
+  }
+  .work_description {
+    color: rgb(221, 221, 221);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 0.8vw;
+  }
+  .solvexis_works_sub_container {
+    border-radius: 1vw;
+    border-bottom: 0.1vw solid white;
+    background-color: rgb(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    padding: 3vw;
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+    transition: 0.5s ease-in-out;
+  }
+  .solvexis_works_sub_container:hover {
+    background-color: rgb(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    padding: 3.2vw;
+    cursor: pointer;
+  }
+  .tech_work_header {
+    font-size: 22px;
+    color: white;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    text-align: center;
+  }
+  .tech_work_logos_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0vw 0vw;
+    justify-content: space-around;
+    width: 100%;
+    padding: 3vw;
+  }
+  .tech_work_logos_sub_container {
+    height: 100px;
+    width: 30%;
+    border-radius: 0.5vw;
+    border: 0.1vw solid white;
+    display: flex;
+    margin: 2vw 1vw;
+    justify-content: center;
+    align-items: center;
+  }
+  .stack_logo {
+    height: 8vw;
+    width: 8vw;
+  }
+  .case_studies_header_txt {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .case_studies_description {
+    color: rgb(214, 214, 214);
+    font-size: var(22px);
+    font-weight: 400;
+    text-align: center;
+    width: 70%;
+  }
+  .case_studies_roles_sub_container {
+    width: 100%;
+    margin-bottom: 3vw;
+    display: flex;
+    gap: 4vw;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  .web {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+  .case_studies_img {
+    width: 90%;
+    height: 40vw;
+    margin-top: 3vw;
+    object-fit: cover;
+  }
+  .case_studies_details {
+    display: flex;
+    gap: 2vw 0vw;
+    width: 90%;
+    flex-direction: column;
+  }
+  .case_studies_footer {
+    padding: 5vw;
+  }
+  .case_studies_footer_header {
+    font-size: var(--font-size-30px);
+    color: white;
+    font-weight: 500;
+    margin-bottom: 3vw;
+  }
+  .footer_solvexis_info_container {
+    display: inline;
+    width: 94%;
+
+    /* : 0w 3vw; */
+    padding-top: 1vw;
+    margin-left: 2vw;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 3vw;
+    border-bottom: 0.4vw solid gray;
+  }
+  .case_studies_footer_conclution {
+    width: 100%;
+    background-color: rgb(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 1vw;
+    border: 0.1vw solid gray;
+    display: flex;
+    margin-top: 5vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4vw;
+  }
+  .case_studies_footer_txt {
+    text-align: center;
+    margin-bottom: 4vw;
+    color: rgb(244, 243, 243);
+    width: 80%;
+    font-size: var(--font-size-18px);
+  }
+  .case_studies_details_header {
+    font-size: 23px;
+    font-family: 600;
+    color: white;
+  }
+  .footer_container {
+    width: 100%;
+    margin-top: 6vw;
+  }
+  .footer_company_description {
+    font-size: var(--font-size-18px);
+    width: 50vw;
+    color: rgb(26, 24, 24);
+    margin-bottom: 5vw;
+  }
+  .footer_contact_info_sub_container_header {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 2vw;
+    color: black;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .home_main_content_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    /* background-color: #8c8; */
+    height: 70vw;
+    /* padding-top: 10vw; */
+  }
+  .home_wraper_text {
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .home_solutions_header_text_p {
+    line-height: 8vw;
+  }
+  .home_wraper_parent_container {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vw;
+    margin-bottom: 2vw;
+  }
+  .home_partners_wraper_img {
+    margin-left: 10vw;
+  }
+  .home_solutions_header_text {
+    font-size: 25px;
+    line-height: 5px;
+  }
+  .footer_container {
+    width: 100%;
+    padding: 0vw 6vw;
+  }
+  .footer_solvexis_info_container {
+    display: inline;
+    width: 94%;
+
+    /* : 0w 3vw; */
+    padding-top: 1vw;
+    margin-left: 2vw;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 3vw;
+    border-bottom: 0.4vw solid gray;
+  }
+  .footer_nav_link {
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(33, 33, 33);
+    margin-bottom: 1vw;
+  }
+  .footer_nav_links {
+    margin-bottom: 4vw;
+  }
+  .footer_contact_info {
+    margin-bottom: 4vw;
+  }
+  .footer_contact_links {
+    font-size: 16px;
+  }
+  .footer_logo_img {
+    height: 14vw;
+    width: 14vw;
+  }
+  .footer_social_media {
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
+  .footer_social_media_icons_container {
+    margin-top: 5vw;
+    gap: 5vw;
+  }
+  .footer_company_description {
+    font-size: var(--font-size-16px);
+    width: 80vw;
+
+    line-height: 4vw;
+  }
+  .footer_social_media_icons_container a {
+    gap: 3vw;
+  }
+  .footer_solvexis_histry {
+    display: flex;
+    gap: 3vw;
+    align-items: center;
+    padding-top: 4vw;
+    padding-bottom: 5vw;
+  }
+  .footer_solvexis_histry p {
+    font-size: 13px;
+  }
+  .footer_icons {
+    height: 5vw;
+    width: 5vw;
+  }
+  .home_wraper_text {
+    font-size: 14px;
+  }
+  .partners_img {
+    height: 17vw;
+    width: 17vw;
+    margin: 0 13vw;
+    display: inline-block;
+  }
+  .tech_work_logos_sub_container {
+    height: 100px;
+    width: 45%;
+    border-radius: 0.5vw;
+    border: 0.1vw solid white;
+    display: flex;
+    margin: 2vw 1vw;
+    justify-content: center;
+    align-items: center;
+  }
+  .case_studies_footer_txt {
+    width: 100%;
+  }
+  .footer_solvexis_histry {
+    display: flex;
+    gap: 0vw;
+    justify-content: space-between;
+    margin-left: 0%;
+    align-items: center;
+  }
+  .footer_solvexis_histry p {
+    font-size: 12px;
+  }
+  .stack_logo {
+    height: 10vw;
+    width: 15vw;
+  }
+}
+
+.case_studies_details_sub_container_description {
+  width: 90%;
+}
+
+/* .spline-bg__fade {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  z-index: -3;
+} */
+
+/* ==============test========== */
+@keyframes marquee {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+.slick-slide {
+  background: #8c8;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+.slick-slide:hover {
+  transform: scale(1.1);
+}
+
+/* ----------------scroll animation start ========== */
+/* Define the keyframes for the animations */
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Initial state for the elements */
+.case_studies_img,
+.case_studies_details {
+  opacity: 1;
+  transition: opacity 0.5s ease-out;
+}
+
+/* Animation classes */
+.animate-left {
+  animation: slideInFromLeft 1s forwards;
+}
+
+.animate-right {
+  animation: slideInFromRight 1s forwards;
+}
+/* Define the keyframes for the animations */
+.case_studies_img {
+  opacity: 1;
+  /* transform: translateX(-50%);
+  transition: transform 0.5s ease-out, opacity 0.5s ease-out; */
+}
+.animate-left {
+  opacity: 1;
+  transform: translateX(0);
+}
+.our_services_home_parent_container {
+  z-index: 2;
+}
+.partners_outer_div,
+.home_wraper_text,
+.home_solutions_header_text_p,
+.home_solutions_description,
+.solvexis_works_sub_container,
+.our_services_home_parent_container,
+.tech_work_header,
+.tech_work_logos_container,
+.case_studies_header_txt,
+.case_studies_description,
+.case_studies_footer_header,
+.case_studies_footer_conclution,
+.Our_services_header_txt,
+h1,
+.slider__col-btns {
+  opacity: 1;
+  /* transform: translateY(8vw);
+  transition: transform 1s ease-out, opacity 1s ease-out; */
+}
+.animate-up {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.animate-up-slide {
+  transform: translateY(-10vw);
+}

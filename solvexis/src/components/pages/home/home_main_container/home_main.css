@@ -1,0 +1,115 @@
+.home_main_content {
+  text-align: center;
+  /* padding: 20px; */
+  transform: scale(1);
+  transition: all 0.3s ease-in;
+}
+.home_main_header_experts_txt,
+.home_main_header_experts_description {
+  opacity: 1; /* Initial state: text is invisible */
+}
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+.text-visible {
+  animation: blink 1s linear forwards;
+}
+
+.home_main_header_txt {
+  font-size: 84.828px;
+  color: rgb(228, 228, 228);
+  font-weight: 400;
+  /* margin-bottom: 1vw; */
+  font-family: "Inter", Sans-serif;
+  font-style: normal;
+  line-height: 109px;
+  opacity: 1;
+  letter-spacing: -0.89px;
+}
+.home_main_header_experts_txt {
+  font-size: 60.828px;
+  font-style: normal; /* font-size: var(--font-size-36px); */
+  background: var(--nav_link_bottom);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 400;
+  opacity: 1;
+  margin-bottom: 3vw;
+  text-fill-color: transparent;
+  width: auto;
+}
+.home_main_header_experts_description {
+  text-align: center;
+  display: flex;
+  font-size: 24px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-weight: 500;
+  opacity: 1;
+  height: auto;
+}
+@media only screen and (max-width: 900px) {
+  .home_main_content {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .home_main_header_txt {
+    font-size: 27px;
+    color: white;
+    font-weight: 400;
+    /* margin-bottom: 3vw; */
+  }
+  .home_main_header_experts_txt {
+    font-size: 24px;
+    /* margin-bottom: 3vw; */
+  }
+  .home_main_header_experts_description {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    font-size: 18px;
+    margin: 0 auto;
+    font-weight: 600;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .home_main_content {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .home_main_header_txt {
+    font-size: 28px;
+    margin-top: 4vw;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 4vw;
+    line-height: 12px;
+  }
+  .home_main_header_experts_txt {
+    margin-top: 4vw;
+    font-size: 28px;
+  }
+  .home_main_header_experts_txt {
+    font-size: 24px;
+    /* margin-bottom: 4vw; */
+  }
+}
+@media only screen and (max-width: 500px) {
+  .dropdown_menubar_container {
+    top: 10vw;
+  }
+}
